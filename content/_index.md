@@ -62,6 +62,13 @@ eg. "Content Page",  "Chapter", "Figure", etc
 </p>
 
 <h3 class="text-2xl font-medium leading-6 mt-6 mb-2 flex"> Quick-start Guide </h3>
-<p> 1. Install <a href="https://workspace.google.com/marketplace/app/word_counter_max_for_google_docs/364683295233" style="color: #0000EE"> the Add-on</a> from the Google Workspace Marketplace™
-2. Open the word counter sidebar by choosing "Add-ons > Word Counter Max for Google Docs™ > View". Then configure the add-on to customise it.
+<p>
+<ol class="list-decimal pl-4">
+  <li class="pl-2">
+    Install <a href="https://workspace.google.com/marketplace/app/word_counter_max_for_google_docs/364683295233" style="color: #0000EE"> the Add-on</a> from the Google Workspace Marketplace™
+  </li>
+  <li class="pl-2">
+  Open the word counter sidebar by choosing "Add-ons > Word Counter Max for Google Docs™ > View". Then configure the add-on to customise it.
+  </li>
+</ol>
 </p>
