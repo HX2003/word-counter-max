@@ -1,0 +1,199 @@
+# Configuration
+baseURL: "https://hanslabs.com/word-counter-max"
+title: "Word Counter Max for Google Docs™"
+
+enableRobotsTXT: true
+# Parse Git commit
+enableGitInfo: false
+# enableEmoji: false
+# hasCJKLanguage: true
+
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
+
+outputs:
+  home: [html, llms]
+  page: [html]
+  section: [html, rss]
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Word Counter Max for Google Docs™
+
+#
+# Extra config for Tailwind CSS
+#
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+  - source: assets/notwatching/hugo_stats\.json
+    target: css
+  - source: (postcss|tailwind)\.config\.js
+    target: css
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.152.0"
+
+  workspace: hugo.work
+  imports:
+    - path: github.com/imfing/hextra
+
+#
+# Extra config for Tailwind CSS
+#
+  mounts:
+  - source: assets
+    target: assets
+  - disableWatch: true
+    source: hugo_stats.json
+    target: assets/notwatching/hugo_stats.json
+    
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - identifier: faq
+      name: FAQ
+      pageRef: /faq
+      weight: 1
+    - identifier: privacy-policy
+      name: Privacy Policy
+      weight: 2
+      pageRef: /privacy-policy
+    - identifier: terms-of-service
+      name: Terms of Service
+      pageRef: /terms-of-service
+      weight: 3
+
+#  sidebar:
+#    - identifier: more
+#      name: More
+#      params:
+#        type: separator
+#      weight: 1
+#    - identifier: about
+#      name: "About"
+#      pageRef: "/about"
+#      weight: 2
+#   - identifier: hugoDocs
+#     name: "Hugo Docs ↗"
+#     url: "https://gohugo.io/documentation/"
+#     weight: 3
+
+params:
+  description: Word counter with powerful capabilities. Obtain detailed word count with the possibility of omitting text between parenthesis, tables, certain text and even set targets for motivation.
+
+  externalLinkDecoration: true
+
+#  banner:
+#    key: 'announcement-v0.11'
+#    message: |
+#      Hextra **v0.11** is here! 🎉 Discover [what's new]({{% ref "blog/v0.11" %}})
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      #dark: images/logo-dark.svg
+      width: 40
+      height: 40
+      #link: /
+    width: wide
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: normal
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: false
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: false
+    base: ""
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+      # Pagination
+      pagerSize: 20
+
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: true
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  page:
+    # full (100%), wide (90rem), normal (80rem)
+    width: normal
+    # tabs:
+    #   sync: true
+
+  comments:
+    enable: false
+    type: giscus
+
+    # https://giscus.app/
+    giscus:
+      repo: ""
+      repoId:
+      category: General
+      categoryId: ""
+      # mapping: pathname
+      # strict: 0
+      # reactionsEnabled: 1
+      # emitMetadata: 0
+      # inputPosition: top
+      # lang: en
+      # theme: noborder_dark
