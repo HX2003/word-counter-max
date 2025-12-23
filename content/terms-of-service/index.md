@@ -27,7 +27,7 @@ While we follow best practices and rely on Google’s secure infrastructure, no 
 All rights, and interest in and to the Add-on, including its code, design, and branding, remain the property of the developer.
 
 Google Docs™ is a trademark of Google LLC.
-This Add-on is not affiliated with, endorsed by, or sponsored by Google.
+The Add-on is not affiliated with, endorsed by, or sponsored by Google.
 
 ### Changes to These Terms
 We may update these Terms from time to time. Any changes will be posted on this page, and the “Last Updated” date will be revised accordingly. Continued use of the Add-on after changes become effective constitutes acceptance of the updated Terms.
