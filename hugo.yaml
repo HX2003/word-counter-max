@@ -1,5 +1,5 @@
 # Configuration
-baseURL: "https://hanslabs.com/word-counter-max"
+baseURL: "https://word-counter-max.hanslabs.com"
 title: "Word Counter Max for Google Docs™"
 
 enableRobotsTXT: true
