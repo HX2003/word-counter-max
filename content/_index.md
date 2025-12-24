@@ -3,10 +3,16 @@ title: Home Page
 layout: hextra-home
 ---
 
-<div class="mt-6 mb-6">
+<div class="mt-6">
 {{< hextra/hero-headline >}}
   This addon has been updated recently!
 {{< /hextra/hero-headline >}}
+</div>
+
+<div class="mb-6">
+{{< hextra/hero-subtitle >}}
+  A more unified user experience
+{{< /hextra/hero-subtitle >}}
 </div>
 
 <h3 class="text-2xl font-medium leading-6 mt-6 mb-2 flex">About</h3>
@@ -23,14 +29,14 @@ Word Counter Max for Google Docs™ is a totally free add-on that I wrote to dis
 ▪ Text in tables
 
 ▪︎ Text with paragraph styles
-eg. "Title",  "Subtitle", "Header1",  "Header2", etc
+eg. "Title", "Subtitle", "Header1", "Header2", etc
 
 ▪︎ Text in paragraphs starting with x.x eg. "1.2 Introduction into" or "1.5.3 My header"
 
 ▪︎ Everything after and including the paragraph starting with Keyword
 
 ▪︎ Text in paragraphs starting with Keyword
-eg. "Content Page",  "Chapter", "Figure", etc
+eg. "Content Page", "Chapter", "Figure", etc
 </p>
 
 <h4 class="text-lg font-medium leading-6 mt-6 flex">Advanced options</h4>
@@ -49,11 +55,7 @@ eg. "Content Page",  "Chapter", "Figure", etc
 
 <h4 class="text-lg font-medium leading-6 mt-6 flex">Display modes</h4>
 <p>
-▪︎ Full
-
-▪︎ Minimal
-
-▪︎ Barebones Floating
+▪︎ Choose between 'Sidebar' and 'Floating' mode.
 </p>
 
 <h4 class="text-lg font-medium leading-6 mt-6 flex">Future</h4>
@@ -68,7 +70,42 @@ eg. "Content Page",  "Chapter", "Figure", etc
     Install <a href="https://workspace.google.com/marketplace/app/word_counter_max_for_google_docs/364683295233" style="color: #0000EE"> the Add-on</a> from the Google Workspace Marketplace™
   </li>
   <li class="pl-2">
-  Open the word counter sidebar by choosing "Add-ons > Word Counter Max for Google Docs™ > View". Then configure the add-on to customise it.
+  Open the word counter sidebar by choosing "Extensions > Word Counter Max for Google Docs™ > View". Then configure the add-on to customise it.
   </li>
 </ol>
+</p>
+
+<h3 class="text-2xl font-medium leading-6 mt-6 mb-2 flex">Changelog</h3>
+<p>
+▪︎ V6.4 'Full' and 'Minimal' modes has been unified, for better user experience.
+
+▪︎ V6.3 Clearer error messages, more readable UI
+
+▪︎ V6.2 Bugfixes (subtitle exclusion)
+
+▪︎ V6.1 Bugfixes (core counting method table)
+
+▪︎ V6.0 Major update to core counting method and bugfixes
+
+▪︎ V5.1 Improved word report interface
+
+▪︎ V5.0 Generate word report now shows words that were excluded. Added option to disable exclusion of table of contents. Added option to exclude double-quotes. Added option to make counting algorithm more similar to Google Docs behaviour.
+
+▪︎ V4.1 New setup menu for new users
+
+▪︎ V4.0 Reading time estimate and input validation
+
+▪︎ V3.13 Bugfixes (Footnotes & Logo)
+
+▪︎ V3.12 Bugfixes
+
+▪︎ V3.11 Count words within selection
+
+▪︎ V3.10 Styling improvements
+
+▪︎ V3.9 Barebones floating mode
+
+▪︎ V3.8 New splash screen 
+
+▪︎ V3.7 Stability improvements and bugfixes
 </p>

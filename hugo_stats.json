@@ -274,6 +274,7 @@
       "hx:shadow-xl",
       "hx:shrink-0",
       "hx:sm:flex",
+      "hx:sm:text-xl",
       "hx:sticky",
       "hx:text-4xl",
       "hx:text-[10px]",
@@ -289,6 +290,7 @@
       "hx:text-slate-900",
       "hx:text-sm",
       "hx:text-transparent",
+      "hx:text-xl",
       "hx:text-xs",
       "hx:to-gray-600",
       "hx:top-0",
@@ -335,6 +337,7 @@
       "third-party-services",
       "use-of-the-add-on",
       "what-should-i-include-to-report-a-bug",
+      "why-does-the-extensions-tab-not-show-up-i-cant-find-the-addon",
       "why-is-it-not-working"
     ]
   }
