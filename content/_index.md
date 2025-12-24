@@ -5,7 +5,7 @@ layout: hextra-home
 
 <div class="mt-6">
 {{< hextra/hero-headline >}}
-  This addon has been updated recently!
+ Version 7.0 is here!
 {{< /hextra/hero-headline >}}
 </div>
 
@@ -20,7 +20,7 @@ layout: hextra-home
 Word Counter Max for Google Docs™ is a totally free add-on that I wrote to display the live word count of the current document even for lengthy documents of 5000 words or more. Unlike the default word counter, you will be able to set exclusions to ignore certain text and you can generate detailed reports for your document. There's more, whether you need to hit a minimum word count or reduce your word count to be within the limit for your assignment, you can set targets for that. This word counter should be relatively accurate though there may be slight discrepancies since every word counter considers what should be a word differently. Do write in if there are major errors or bugs.
 </p>
 
-<h4 class="text-lg font-medium leading-6 mt-6 flex">Available exclusions in V6.3</h4>
+<h4 class="text-lg font-medium leading-6 mt-6 flex">Available exclusions in V7.0</h4>
 <p>
 ▪︎ Text between parentheses
 
@@ -77,7 +77,7 @@ eg. "Content Page", "Chapter", "Figure", etc
 
 <h3 class="text-2xl font-medium leading-6 mt-6 mb-2 flex">Changelog</h3>
 <p>
-▪︎ V6.4 'Full' and 'Minimal' modes has been unified, for better user experience.
+▪︎ V7.0 'Full' and 'Minimal' modes has been unified, for better user experience. You can now opt for more compact user interface and also hide the session panel.
 
 ▪︎ V6.3 Clearer error messages, more readable UI
 
