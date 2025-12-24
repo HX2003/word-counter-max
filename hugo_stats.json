@@ -31,6 +31,7 @@
       "path",
       "script",
       "span",
+      "strong",
       "style",
       "svg",
       "title",
@@ -338,7 +339,8 @@
       "use-of-the-add-on",
       "what-should-i-include-to-report-a-bug",
       "why-does-the-extensions-tab-not-show-up-i-cant-find-the-addon",
-      "why-is-it-not-working"
+      "why-does-the-floating-view-appear-in-the-middle-how-do-i-move-it",
+      "why-is-it-showing-an-error-message"
     ]
   }
 }
